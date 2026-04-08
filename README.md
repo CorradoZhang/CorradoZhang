@@ -1,37 +1,72 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=180&color=0:0f172a,100:1e3a8a&text=Yu%20Zhang&fontColor=ffffff&fontSize=46&fontAlignY=42&desc=PhD%20Student%20in%20Computer%20Science%20%7C%20University%20of%20Galway&descAlignY=65" alt="Yu Zhang banner" />
-</p>
+<!doctype html>
+<html lang="en">
 
-<p align="center">
-  Reinforcement Learning · Robotics · Autonomous Systems
-</p>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yu Zhang | Publications</title>
+  <meta name="description" content="Yu Zhang's publications and research outputs.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css?v=20260408">
+</head>
 
-<p align="center">
-  <a href="mailto:Y.Zhang34@universityofgalway.ie">Email</a> /
-  <a href="https://github.com/CorradoZhang">GitHub</a> /
-  <a href="https://scholar.google.com/citations?user=a2Pyq-kAAAAJ&hl=en">Google Scholar</a> /
-  <a href="https://www.linkedin.com/in/yu-zhang-ml-rl-rbt/">LinkedIn</a>
-</p>
+<body data-page="publications">
+  <div data-site-header></div>
 
-## About
+  <main class="page">
+    <div class="container page-grid">
+      <div data-profile-sidebar></div>
 
-I am a PhD student in Computer Science at the University of Galway and a member of the A3 Research Group.
+      <section class="main-content">
+        <header class="page-heading">
+          <h1>Publications</h1>
+          <p>Peer-reviewed papers, preprints, and ongoing work.</p>
+        </header>
 
-My work focuses on adaptive intelligence for decision-making in uncertain environments, with particular interests in reinforcement learning, robotics, and autonomous systems.
+        <div class="main-scroll">
+          <section class="content-section">
+            <h2 class="section-title"><i class="fa-solid fa-book-open"></i>Selected Publications</h2>
+            <hr class="section-divider">
+            <article class="publication-entry" id="dspear-paper">
+              <div class="publication-figure">
+                <img src="Figures/Paper-ICCRE.png" alt="Figure for D-SPEAR paper">
+              </div>
+              <div class="publication-content">
+                <h3 class="publication-title">
+                  <a href="https://arxiv.org/abs/2603.27346" target="_blank" rel="noreferrer">D-SPEAR: Dual-Stream Prioritized Experience Adaptive Replay for Stable Reinforcement Learning in Robotic Manipulation</a>
+                </h3>
+                <p class="publication-authors"><strong>Yu Zhang</strong>, Karl Mason</p>
+                <div class="publication-links">
+                  <p><span class="publication-link-label">Paper:</span> <a href="https://arxiv.org/abs/2603.27346" target="_blank" rel="noreferrer">https://arxiv.org/abs/2603.27346</a></p>
+                  <p><span class="publication-link-label">Code:</span> <a href="https://github.com/CorradoZhang/D-SPEAR-Code-and-Result" target="_blank" rel="noreferrer">https://github.com/CorradoZhang/D-SPEAR-Code-and-Result</a></p>
+                </div>
+                <ul class="publication-meta-list">
+                  <li>Accepted at IEEE 11th International Conference on Control and Robotics Engineering (ICCRE 2026).</li>
+                </ul>
+              </div>
+            </article>
+          </section>
 
-## Academic Profile
+          <section class="content-section">
+            <h2 class="section-title"><i class="fa-solid fa-graduation-cap"></i>Profiles</h2>
+            <hr class="section-divider">
+            <p>For external publication records, see <a href="https://scholar.google.com/citations?user=a2Pyq-kAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>.</p>
+          </section>
+        </div>
+      </section>
+    </div>
+  </main>
 
-- PhD in Computer Science, University of Galway, 2025-2029 (expected)
-- MSc in Artificial Intelligence, University of Galway, 2024-2025
-- BEng in Computer Science and BSc in Mathematics, Heilongjiang University of Science and Technology, 2020-2024
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Yu Zhang</p>
+    </div>
+  </footer>
 
-## Contact
+  <script src="site.js?v=20260408"></script>
+</body>
 
-- Email: `Y.Zhang34@universityofgalway.ie`
-- GitHub: `github.com/CorradoZhang`
-- Google Scholar: `scholar.google.com/citations?user=a2Pyq-kAAAAJ&hl=en`
-- LinkedIn: `linkedin.com/in/yu-zhang-ml-rl-rbt`
-
-<p align="center">
-  <sub>Building intelligent systems that learn, adapt, and act under uncertainty.</sub>
-</p>
+</html>

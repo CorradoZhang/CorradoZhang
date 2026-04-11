@@ -19,8 +19,6 @@ I am a PhD student in Computer Science at the University of Galway, working in t
 
 My work focuses on adaptive intelligence for decision-making in uncertain environments, with particular interests in reinforcement learning, robotics, and autonomous systems.
 
-- Supervisor: [Dr. Karl Mason](https://research.universityofgalway.ie/en/persons/karl-mason/)
-- Research Group: [A3 Research Group](https://www.autonomous-agents-research.com/)
 
 ## Academic Profile
 
